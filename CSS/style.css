@@ -1,0 +1,395 @@
+.page1 {
+   height: 100vh;
+}
+
+.header {
+height: 10%;
+}
+
+.nav-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.nav-list {
+   list-style: none;
+   display: flex;
+   margin-left: -80px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.nav-list li {
+   padding-right: 20px;
+}
+
+.logo {
+   align-self: center;
+   padding-right: 230px;
+}
+
+.links {
+   align-self: center; 
+}
+
+.links img {
+   padding-right: 18px;
+}
+
+
+
+
+.main {
+   height: 90%;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #F0EFEB;
+   ;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+}
+
+.titile {
+   align-self: left;
+   font-family: 'Roboto', sans-serif;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 700;
+}
+.information {
+   font-family: 'Roboto', sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+}
+
+.button {
+   background: #000;
+   border-radius: 100px;
+   height: 36px;
+   width: 130px;
+   color: #FFF;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+}
+
+
+
+
+
+.guides {
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.guides h2 {
+   font-family: Roboto, sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+}
+.guides p {
+   font-family: Roboto, sans-serif;
+   font-size: 20px;
+   font-weight: 400px;
+}
+.guides :last-child {
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+
+.card-description {
+   height: 700px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.card-1 {
+   text-align: center;
+}
+.description {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+}
+.price {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 400;
+}
+.card-1 a {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+}
+
+.card-2 {
+   text-align: center;
+}
+
+.card-2 a {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+}
+
+.card-3 {
+   text-align: center;
+}
+
+.card-3 a {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+}
+
+
+
+
+.single-card-description1 {
+   height: 652px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #CCCCCC4D;
+}
+
+.single-card-description2 {
+   height: 652px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   background-color: #CCCCCC99;
+}
+
+.single-card-description3 {
+   height: 652px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #CCCCCC4D;
+}
+
+.wrapper {
+   margin: 0 50px 0 50px;
+}
+
+.single-card-description2 .wrapper {
+   text-align: right;
+}
+
+.wrapper h2 {
+   font-family: Roboto, sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.wrapper p {
+   font-family: Roboto, sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.wrapper h3 {
+   font-family: Roboto, sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+   text-decoration-line: underline;
+   }
+
+.single-card-description2 {
+   height: 652px;
+   display: flex;
+}
+
+.single-card-description3 {
+   height: 652px;
+   display: flex;
+}
+
+
+
+.text-features {
+   display: flex;
+   justify-content: center;
+   width: 450px;
+   height: 85px;
+   margin: 190px auto 69px auto;
+}
+.text-features span {
+   font-family: Roboto, sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+   text-align: center;
+}
+
+
+
+.dots-group-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 163px;
+}
+.dots-group-wrapper p {
+   font-family: Roboto, sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+.dots-group1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.dots-group2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.dots-group3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.dot1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.dot4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.dot2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.dot5 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.dot3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.dot6 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.dot1 {
+   margin-bottom: 111px;
+}
+.dot2 {
+   margin-bottom: 111px;
+}
+.dot3 {
+   margin-bottom: 111px;
+}
+
+
+
+.text-voices {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto 102px auto;
+   width: 705px;
+   height: 85px; 
+}
+.text-voices span {
+   font-family: Roboto, sans-serif;
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+}
+
+.card-voices-description {
+   height: 700px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.card-voices-description h3 {
+   font-family: Roboto, sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+   text-decoration-line: underline;
+}
+.round-card-1 :nth-child(2) {
+   font-family: Roboto, sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+}
+.round-card-1 :nth-child(3) {
+   font-family: Roboto, sans-serif;
+   font-size: 19px;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: -15px;
+}
+.round-card-1 :nth-child(4) {
+   font-family: Roboto, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+}
+.round-card-2 :nth-child(2) {
+   font-family: Roboto, sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+}
+.round-card-2 :nth-child(3) {
+   font-family: Roboto, sans-serif;
+   font-size: 19px;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: -15px;
+}
+.round-card-2 :nth-child(4) {
+   font-family: Roboto, sans-serif;
+   font-size: 19px;
+   font-weight: 400;
+   text-align: center;
+}
+.round-card-3 :nth-child(2) {
+   font-family: Roboto, sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+}
+.round-card-3 :nth-child(3) {
+   font-family: Roboto, sans-serif;
+   font-size: 19px;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: -15px;
+}
+.round-card-3 :nth-child(4) {
+   font-family: Roboto, sans-serif;
+   font-size: 19px;
+   font-weight: 400;
+   text-align: center;
+}
