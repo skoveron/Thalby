@@ -22,15 +22,18 @@ height: 10%;
 
 .nav-list li {
    padding-right: 20px;
+   cursor: pointer;
 }
 
 .logo {
    align-self: center;
    padding-right: 230px;
+   cursor: pointer;
 }
 
 .links {
    align-self: center; 
+   cursor: pointer;
 }
 
 .links img {
